@@ -105,13 +105,13 @@ export default function Treatments() {
           index !== 2 &&
           index !== 5 &&
           index !== 8
-            ? "md:border-r-2  md:border-[#45515C]"
+            ? "md:border-r-3  md:border-[#AAAAAC]"
             : ""
         }
 
         ${
           index < 6
-            ? "md:border-b-2  md:border-[#45515C]"
+            ? "md:border-b-3  md:border-[#AAAAAC]"
             : ""
         }
 
