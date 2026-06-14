@@ -37,7 +37,7 @@ export default function SwiperSection({ data }: SwiperProps) {
     }
   };
   return (
-    <section className="py-16 px-4 bg-white select-none">
+    <section className="py-16 bg-white select-none">
       {/* Section Heading */}
       <Container>
         <h2 className="text-center text-[24px] sm:text-[28px] md:text-[34px] lg:text-[42px] font-bold leading-[1.3] md:leading-[1.2]  text-primary font-Lato mb-12">
@@ -73,7 +73,7 @@ export default function SwiperSection({ data }: SwiperProps) {
               const showReadMore = wordCount > 25;
               return (
                 <SwiperSlide key={item.id}>
-                  <div className="bg-[#fdf5f0] rounded-3xl p-6 md:p-8 flex flex-col md:flex-row gap-6 min-h-[240px] relative">
+                  <div className="bg-[#fdf5f0] rounded-3xl p-6 md:p-8 flex flex-col md:flex-row gap-3 md:gap-6 min-h-[240px] relative">
                     {/* Left Side: Profile & Overlapping Quote Icon */}
                     <div className="relative shrink-0 w-32 h-37 mx-auto md:mx-0">
                       <Image
