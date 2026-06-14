@@ -3,6 +3,8 @@ import Banner from './banner'
 import { HOME_BANNER , AWARD_SECTION, TREATMENTS_DATA  } from '@/app/layout/constants'
 import Award from './award'
 import Treatments from './treatments'
+import { testimonialData} from "@/app/layout/constants";
+import SwiperSection from './swipersection'
 
 export default function Main() {
   return (
@@ -11,6 +13,7 @@ export default function Main() {
 <Banner data={HOME_BANNER}/>
 <Award data={AWARD_SECTION} />
 <Treatments />
+  <SwiperSection data={testimonialData}/>
 
   </>
   )

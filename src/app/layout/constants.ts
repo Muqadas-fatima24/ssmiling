@@ -119,3 +119,53 @@ export const TREATMENTS_DATA = [
   { id: 14, name: 'Gum Bleaching', icon: '🌸', category: 'cosmetic', link: '#' },
   { id: 15, name: 'Tooth Contouring', icon: '📐', category: 'cosmetic', link: '#' }
 ];
+
+
+// testimonial data 
+
+
+// data
+export interface Testimonial {
+  id: number;
+  name: string;
+  role: string;
+  image: string;
+  rating: number;
+  text: string;
+}
+
+export const testimonialData: Testimonial[] = [
+  {
+    id: 1,
+    name: "Michael Seymour",
+    role: "Patient",
+    image:  "/home/testimonials-1.png", // Replace with your actual asset path
+    rating: 5,
+    text: "I had some excellent treatment at Start smiling and can’t thank the team enough. The care and kindness shown by everyone really stood out and put me at complete ease throughout the entire process.I have been using start smiling for the last 4 years, I can highly recommend their services. I had 3 implants fitted, and also some cosmetic work done to perfection.I have been using start smiling for the last 4 years, I can highly ",
+  },
+  {
+    id: 2,
+    name: "John Robinson",
+    role: "Patient",
+    image:  "/home/testimonials-1.png",
+    rating: 5,
+    text: "I had some excellent treatment at Start smiling and can’t thank the team enough. The care and kindness shown by everyone really stood out and put me at complete ease throughout the entire process.I have been using start smiling for the last 4 years, I can highly recommend their services. I had 3 implants fitted, and also some cosmetic work done to perfection.I have been using start smiling for the last 4 years, I can highly  ",
+  },
+    {
+    id: 3,
+    name: "Michael Seymour",
+    role: "Patient",
+    image:  "/home/testimonials-1.png",// Replace with your actual asset path
+    rating: 5,
+    text: "I had some excellent treatment at Start smiling and can’t thank the team enough. The care and kindness shown by everyone really stood out and put me at complete ease throughout the entire process.I have been using start smiling for the last 4 years, I can highly recommend their services. I had 3 implants fitted, and also some cosmetic work done to perfection.I have been using start smiling for the last 4 years. I can highly. ",
+  },
+  {
+    id: 4,
+    name: "John Robinson",
+    role: "Patient",
+    image: "/home/testimonials-1.png",
+    rating: 5,
+    text: "I had some excellent treatment at Start smiling and can’t thank the team enough. The care and kindness shown by everyone really stood out and put me at complete ease throughout the entire process.I have been using start smiling for the last 4 years, I can highly recommend their services. I had 3 implants fitted, and also some cosmetic work done to perfection.I have been using start smiling for the last 4 years.",
+  },
+  // Add more items here...
+];
