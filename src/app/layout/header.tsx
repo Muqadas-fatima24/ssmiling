@@ -370,7 +370,14 @@ export default function Header() {
             href="#"
             className="bg-primary text-white ml-4 min-[1150px]:ml-[1.6rem]  text-xs min-[1150px]:text-sm py-4 px-6 flex items-center justify-center gap-2 rounded-full text-center font-normal"
           >
-            Free Smile Consultation <span className="font-bold">&rarr;</span>
+            Free Smile Consultation {""}               <span className="font-bold">
+                      <Image
+                        src="/home/button-arrow-sec.svg"
+                        alt="Arrow"
+                        width={12}
+                        height={12}
+                        className="object-contain w-[12] h-[12]  invert group-hover:invert-0 transition-all duration-300 "/>
+                </span>
           </Link>
 
           <div className="flex gap-4 pt-4">
