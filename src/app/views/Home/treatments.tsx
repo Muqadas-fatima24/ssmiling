@@ -28,7 +28,7 @@ export default function Treatments() {
           {/* General Dentistry Button Card */}
           <button 
             onClick={() => setActiveCategory('general')}
-            className="relative h-25 rounded-xl  cursor-pointer group bg-cover bg-center shadow-md"
+            className="relative h-25 rounded-xl text-sm sm:text-base cursor-pointer group bg-cover bg-center shadow-md"
             style={{ backgroundImage: `url('/home/general-dentistry.webp')` }} // Placeholder image
           >
             {/* <div className="absolute inset-0 bg-black/20 transition-colors group-hover:bg-black/30" /> */}
@@ -63,7 +63,7 @@ export default function Treatments() {
           >
             {/* <div className="absolute inset-0 bg-black/20 transition-colors group-hover:bg-black/30" /> */}
             <div
-              className={`absolute -bottom-5 left-[30%] flex items-center gap-2 px-5 py-2.5 rounded-md font-semibold text-base whitespace-nowrap transition-all duration-500  shadow-lg ${
+              className={`absolute -bottom-5 left-1/2 top-[78px]  -translate-x-1/2 flex items-center gap-2 px-5 py-2.5 rounded-md font-semibold text-sm sm:text-base whitespace-nowrap transition-all duration-500  shadow-lg ${
                 activeCategory === 'cosmetic'
                   ? 'bg-secondry text-white' 
                   : 'bg-primary text-white'  

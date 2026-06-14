@@ -45,7 +45,7 @@ export default function SwiperSection({ data }: SwiperProps) {
         </h2>
 
         {/* Main Swiper Container */}
-        <Container className="relative mb-8 overflow-hidden">
+        <div className="relative mb-8 overflow-hidden">
           <SwiperComponent
             modules={[Navigation, Autoplay]}
             spaceBetween={30}
@@ -55,7 +55,7 @@ export default function SwiperSection({ data }: SwiperProps) {
             }}
             loop={true}
             autoplay={{
-              delay: 3500,
+              delay: 55500,
               disableOnInteraction: false,
               pauseOnMouseEnter: true,
             }}
@@ -75,13 +75,14 @@ export default function SwiperSection({ data }: SwiperProps) {
                 <SwiperSlide key={item.id}>
                   <div className="bg-[#fdf5f0] rounded-3xl p-6 md:p-8 flex flex-col md:flex-row gap-3 md:gap-6 min-h-[240px] relative">
                     {/* Left Side: Profile & Overlapping Quote Icon */}
-                    <div className="relative shrink-0 w-32 h-37 mx-auto md:mx-0">
+                    {/* <div className="relative shrink-0 sm:w-[170px] lg:w-[180px] mx-auto md:mx-0"> */}
+                    <div className="relative shrink-0 w-full sm:w-[170px] lg:w-[180px] mx-auto md:mx-0">
                       <Image
-                        src={item.image}
-                        width={100}
-                        height={100}
-                        alt={item.name}
-                        className="w-full h-full object-cover rounded-2xl"
+                           src={item.image}
+                            width={220}
+                           height={220}
+                           alt={item.name}
+                           className="w-full h-[150px] sm:h-full object-cover"
                       />
                     </div>
 
@@ -112,7 +113,7 @@ export default function SwiperSection({ data }: SwiperProps) {
 
                       <div className="border-t border-[#73788730] pt-4 mt-4 flex items-center justify-between">
                         <div>
-                          <h4 className="font-bold text-primary text-base">
+                          <h4 className="font-bold text-primary text-sm sm:text-base">
                             {item.name}
                           </h4>
                           <p className="text-xs text-primary">{item.role}</p>
@@ -120,9 +121,10 @@ export default function SwiperSection({ data }: SwiperProps) {
                         <div className="flex gap-0.5 text-[#b56a43]">
                           <Image
                             src={"/home/stars-brown.svg"}
-                            width={100}
-                            height={100}
+                            width={70}
+                            height={70}
                             alt="stars"
+                            className=""
                           />
                         </div>
                       </div>
@@ -132,7 +134,7 @@ export default function SwiperSection({ data }: SwiperProps) {
               );
             })}
           </SwiperComponent>
-        </Container>
+        </div>
 
         {/* --- MAIN CAROUSEL TEARDROP BUTTONS --- */}
         <div className="flex justify-center items-center gap-1 mt-8">
@@ -178,7 +180,7 @@ export default function SwiperSection({ data }: SwiperProps) {
                 initialSlide={activeIndex}
                 loop={true}
                 autoplay={{
-                  delay: 3500,
+                  delay: 55500,
                   disableOnInteraction: false,
                   pauseOnMouseEnter: true,
                 }}
@@ -259,18 +261,21 @@ export default function SwiperSection({ data }: SwiperProps) {
                       {/* change */}
                       <div className="h-[4px] w-full bg-secondry"></div>
                       <div className="relative">
-                        <div className="flex p-8 gap-6 items-start">
+                        <div className="flex p-4 sm:p-8 gap-3 md:gap-6 items-start">
                           <div className=" relative shrink-0 w-[95px] h-[95px]">
-                            <img
+                            <Image
                               src={item.image}
                               alt={item.name}
+                              quality={100}
+                              width={220}
+                              height={220}
                               className="w-full h-full object-cover rounded-xl"
                             />
                           </div>
                           <div className="grow w-full">
-                            <div className="flex flex-col justify-between items-start mb-4 pb-2  gap-3">
+                            <div className="flex flex-col justify-between items-start mb-4 pb-2 gap-1 sm:gap-2 md:gap-3">
                               <div>
-                                <h3 className="font-bold text-xl mb-1 text-primary">
+                                <h3 className="font-bold text-sm whitespace-wrap sm:text-base md:text-xl mb-1 text-primary">
                                   {item.name}
                                 </h3>
                                 <p className="text-xs text-primary">
@@ -289,7 +294,7 @@ export default function SwiperSection({ data }: SwiperProps) {
                           </div>
                         </div>
 
-                        <div className="px-8 py-6 border-t border-[#73788740]">
+                        <div className="sm:px-8 sm:py-6 px-4 py-3 border-t border-[#73788740]">
                           <p className="text-primary text-sm md:text-base leading-relaxed max-h-[30vh] overflow-y-auto">
                             {item.text}
                           </p>
@@ -305,7 +310,7 @@ export default function SwiperSection({ data }: SwiperProps) {
                             />
                           </button>
 
-                          <p className="text-center text-[13px] font-semibold uppercase tracking-[0.08em] text-tertiary">
+                          <p className="text-center text-xs sm:text-sm font-semibold uppercase tracking-[0.08em] text-tertiary">
                             More Patient Stories
                           </p>
 
