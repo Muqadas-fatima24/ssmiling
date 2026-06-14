@@ -1,83 +1,17 @@
 import React from 'react'
+import Banner from './banner'
+import { HOME_BANNER , AWARD_SECTION, TREATMENTS_DATA  } from '@/app/layout/constants'
+import Award from './award'
+import Treatments from './treatments'
 
 export default function Main() {
   return (
-    <div>M
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic exercitationem consequuntur labore dolorem omnis itaque dignissimos voluptates eum nisi distinctio veritatis libero, nesciunt temporibus quis ipsa sit consequatur id?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga? Voluptate eos reiciendis at nihil quia adipisci aut quaerat exercitationem inventore similique. Asperiores culpa libero sit debitis nesciunt natus adipisci.
-        v
-    </div>
+  <>
+  
+<Banner data={HOME_BANNER}/>
+<Award data={AWARD_SECTION} />
+<Treatments />
+
+  </>
   )
 }
