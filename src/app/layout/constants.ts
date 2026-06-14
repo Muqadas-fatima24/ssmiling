@@ -165,7 +165,7 @@ export const testimonialData: Testimonial[] = [
     role: "Patient",
     image: "/home/testimonials-1.png",
     rating: 5,
-    text: "I had some excellent treatment at Start smiling and can’t thank the team enough. The care and kindness shown by everyone really stood out and put me at complete ease throughout the entire process.I have been using start smiling for the last 4 years, I can highly recommend their services. I had 3 implants fitted, and also some cosmetic work done to perfection.I have been using start smiling for the last 4 years.",
+    text: "I had some excellent treatment at Start smiling and can’t thank the team enough. The care and kindness shown by everyone really stood out and put me at complete ease throughout the entire process.I have been using start smiling for the last 4 years, I can highly recommend their services. I had 3 implants fitted, and also some cosmetic work done to perfection.I have been using start smiling for the last 4 years.I can highly. yex.",
   },
   // Add more items here...
 ];
