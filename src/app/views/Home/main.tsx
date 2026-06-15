@@ -13,8 +13,7 @@ export default function Main() {
 <Banner data={HOME_BANNER}/>
 <Award data={AWARD_SECTION} />
 <Treatments />
-  <SwiperSection data={testimonialData}/>
-
+<SwiperSection data={testimonialData}/>
   </>
   )
 }

@@ -14,7 +14,7 @@ export default function Treatments() {
   );
 
   return (
-    <section className="bg-[#FAF5F0] py-16 px-4 md:px-8">
+    <section className="bg-[#FAF5F0] py-16 md:px-8">
       <Container>
         
         {/* Section Heading */}
@@ -33,7 +33,7 @@ export default function Treatments() {
           >
             {/* <div className="absolute inset-0 bg-black/20 transition-colors group-hover:bg-black/30" /> */}
             <div
-              className={`absolute -bottom-5 left-1/2 top-[78px]  -translate-x-1/2 flex items-center gap-2 px-5 py-2.5 rounded-md font-semibold text-base whitespace-nowrap transition-all duration-500 shadow-lg ${
+              className={`absolute -bottom-5 left-1/2 top-[78px] -translate-x-1/2 flex items-center gap-2 px-5 py-2.5 rounded-md font-semibold text-base whitespace-nowrap transition-all duration-500 shadow-lg ${
                 activeCategory === 'general'
                   ? 'bg-secondry text-white' 
                   : 'bg-primary text-white'  
@@ -93,7 +93,7 @@ export default function Treatments() {
         className={`
         group
         flex flex-col
-        items-center
+        items-center 
         justify-center
         p-12
         cursor-pointer
