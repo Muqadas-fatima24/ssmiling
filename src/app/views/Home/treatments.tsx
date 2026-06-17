@@ -47,7 +47,7 @@ export default function Treatments() {
                   activeCategory === 'general' ? 'rotate-180' : 'rotate-0'
                    }              
                 `}>
-                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">                   
+                <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">                   
                 </path>
                 </svg>
             </span>
@@ -76,7 +76,7 @@ export default function Treatments() {
                   activeCategory === 'general' ? 'rotate-180' : 'rotate-0'
                    }              
                 `}>
-                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">                   
+                <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">                   
                 </path>
                 </svg>
             </span>

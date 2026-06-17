@@ -169,3 +169,38 @@ export const testimonialData: Testimonial[] = [
   },
   // Add more items here...
 ];
+
+// meet
+// Add this to your constants file
+export const TEAM_DATA = {
+  heading: "Meet The Team",
+  description: "Start Smiling Dental Practice offers award-winning dentistry on your doorstep, with a choice of advanced treatments from familiar faces, alongside general dental care for you and your family. If you would like to improve your smile, we’re here to help you take the first step.",
+  subDescription: "Introducing your dental team at Start Smiling Dental Practice in Essex.",
+  members: [
+    { id: 1, name: "Tom Sealey", role: "", image: "/images/tom.png" },
+    { id: 2, name: "Tony Aneiros", role: "Dentist", image: "/images/tony.png" },
+    { id: 3, name: "Natalie Hutson", role: "", image: "/images/natalie.png" },
+    { id: 4, name: "Emma", role: "", image: "/images/emma.png" },
+    { id: 5, name: "Deimante Steponaityte", role: "", image: "/images/deimante.png" },
+  ]
+};
+
+
+
+export interface TeamMember {
+  id: number;
+  name: string;
+  role?: string; // Optional because only the active member might show it
+  image: string;
+}
+
+export interface TeamSectionData {
+  heading: string;
+  description: string;
+  subDescription: string;
+  members: TeamMember[];
+}
+
+export interface MeetProps {
+  data: TeamSectionData;
+}
