@@ -2,7 +2,7 @@
 'use client'
 import { useState } from 'react';
 import Image from 'next/image';
-import { TREATMENTS_DATA } from '@/app/layout/constants' // Adjust path as needed
+import { TREATMENTS_DATA } from '@/app/layout/constants' 
 import Container from '@/app/layout/container';
 
 export default function Treatments() {

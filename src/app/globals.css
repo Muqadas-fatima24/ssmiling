@@ -161,3 +161,65 @@ body {
 .banner-btn:hover .banner-btn-text {
   color:#b0653c;
 }
+
+
+/* btn2 */
+
+.banner-btn1 {
+  position: relative;
+  overflow: hidden;
+  background:  var(--color-primary);
+  color: white;
+  border-radius: 999px;
+  padding: 10px 55px 10px 24px;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* expanding white background */
+.banner-btn1-bg {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 39px;
+  height: 39px;
+  border-radius: 999px;
+  background: white;
+  transition: width 0.4s ease;
+  z-index: 1;
+}
+
+/* text */
+.banner-btn1-text {
+  position: relative;
+  z-index: 2;
+  transition: color 0.4s ease;
+}
+
+/* arrow */
+.banner-btn1-arrow {
+  position: absolute;
+  right: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+  font-size: 24px;
+  z-index: 3;
+}
+
+/* hover */
+.banner-btn1:hover .banner-btn1-bg {
+  width: calc(100% - 10px);
+}
+
+.banner-btn1:hover .banner-btn1-text {
+  color:var(--color-primary);
+}

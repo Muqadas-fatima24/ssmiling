@@ -6,6 +6,7 @@ import Treatments from './treatments'
 import { testimonialData} from "@/app/layout/constants";
 import SwiperSection from './swipersection'
 import Meet from './meet'
+import Wonder from './wonder'
 
 export default function Main() {
   return (
@@ -15,6 +16,7 @@ export default function Main() {
 <Treatments />
 <SwiperSection data={testimonialData}/>
 <Meet data={TEAM_DATA}/>
+<Wonder heading={"Wondering How We Can Help Improve Your Smile?"} />
   </>
   )
 }

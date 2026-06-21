@@ -2,6 +2,8 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import { MeetProps } from '@/app/layout/constants'
+import Container from '@/app/layout/container';
+import Button2 from '@/app/layout/button2';
 
 export default function Meet({ data }: MeetProps) {
   // Explicitly type the state as a number
@@ -11,7 +13,8 @@ export default function Meet({ data }: MeetProps) {
 
   return (
     <section className="bg-[#B36B3F] py-16 text-white text-center">
-      <div className="max-w-[1200px] mx-auto px-4">
+      <Container
+      >
         
         {/* Headings */}
         <h2 className="sm:text-[32px] font-playfair text-[28px] md:text-[40px] leading-[1.3] lg:text-[55px] md:leading-[1.1] font-bold mb-4">
@@ -25,18 +28,17 @@ export default function Meet({ data }: MeetProps) {
         </p>
 
         {/* Team Grid */}
-        <div className="flex flex-wrap justify-center items-end gap-3 md:gap-4 overflow-hidden mb-12">
+        <div className="flex md:flex-row flex-col justify-center items-center gap-3 md:gap-4 overflow-hidden mb-12">
           {data.members?.map((member, index: number) => {
             const isActive = index === activeIndex;
-
             return (
               <div
                 key={member.id}
                 onClick={() => setActiveIndex(index)}
-                className={`relative cursor-pointer transition-all duration-300 ease-in-out group h-[260px] md:h-[320px] rounded-sm overflow-hidden flex items-end ${
+                className={`relative cursor-pointer transition-all duration-300 ease-in-out group h-[300px] md:h-[220px] lg:h-[300px] rounded-sm overflow-hidden flex items-end ${
                   isActive 
-                    ? 'w-[200px] md:w-[240px] bg-[#647996]' 
-                    : 'w-[140px] md:w-[170px] bg-[#D9E7F9]'
+                    ? 'w-full md:w-[275px] lg:w-[315px] bg-[#647996]' 
+                    : 'w-full md:w-[175px] lg:w-[215px] bg-[#D9E7F9]'
                 }`}
               >
                 {/* Image */}
@@ -53,7 +55,7 @@ export default function Meet({ data }: MeetProps) {
                 <div
                   className={`absolute inset-0 z-10 transition-all duration-300 ${
                     isActive
-                      ? 'bg-linear-to-t from-40% from-secondary to-transparent'
+                      ? 'bg-linear-to-t from-40% from-primary to-transparent'
                       : 'h-[170px] bottom-0 w-full bg-linear-to-t from-30% from-[#D9E7F9] via-[#D9E7F9B2] to-transparent'
                   }`}
                 />
@@ -96,16 +98,15 @@ export default function Meet({ data }: MeetProps) {
         </div>
 
         {/* CTA Button */}
-        <div className="flex justify-center">
-          <button className="flex items-center gap-3 bg-[#0A2540] hover:bg-[#123456] transition-colors text-white font-medium text-sm px-6 py-3 rounded-full group">
-            Our Team
-            <span className="bg-white text-[#0A2540] w-6 h-6 rounded-full flex items-center justify-center font-bold text-sm transform transition-transform group-hover:translate-x-1">
-              &rarr;
-            </span>
-          </button>
+        <div className="flex justify-center">  
+          <Button2
+             href="/contact"
+             text="Contact Us"
+            // className='bg-blue! text-white!'
+            />
         </div>
 
-      </div>
+      </Container>
     </section>
   )
 }
