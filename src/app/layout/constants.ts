@@ -204,3 +204,4 @@ export interface TeamSectionData {
 export interface MeetProps {
   data: TeamSectionData;
 }
+
